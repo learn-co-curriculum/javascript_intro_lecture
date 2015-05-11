@@ -84,11 +84,11 @@ console.log(i);
 }
   * gotchas
     * iterating over keys or values in an object
-    if you do this
+    if you do this  
       ```javascript
       for (var prop in obj) { }
-      ```
-    this can show you inherited properties
+      ```  
+    this can show you inherited properties  
       ```javascript
       for (var prop in obj) {
         if (obj.hasOwnProperty(prop)) {
