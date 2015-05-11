@@ -85,6 +85,7 @@ console.log(i);
   * gotchas
     * iterating over keys or values in an object
     if you do this  
+    
       ```javascript
       for (var prop in obj) { }
       ```  
