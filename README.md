@@ -64,10 +64,8 @@ class poll, who is scared of js, who is excited, who hates js
         * set the value for that key to be the number version of the string key
         * return the new hash
   * write it in js
-    * SEMICOLONS
-    <http://www.codecademy.com/blog/78-your-guide-to-semicolons-in-javascript>  
-
-    * objects/hashes
+    * [SEMICOLONS](http://www.codecademy.com/blog/78-your-guide-to-semicolons-in-javascript)
+    * objects are very similar to hashes
     * create a variable, assign it a value
     * access a property of an object/hash
     * functions as first class objects, anonymous functions passed like a block as a callback
@@ -77,15 +75,19 @@ class poll, who is scared of js, who is excited, who hates js
     * toLowerCase()
     * Number(string)
     * explicit return
-    * NOT COVERED
-    for loop
-      * for (var i = 0; i < 4; i++) {   
-console.log(i);  
-}
+    * NOT COVERED in this lab
+      * for loop
+        
+      ```javascript  
+        for (var i = 0; i < 4; i++) {   
+          console.log(i);  
+        }
+      ```
+
   * gotchas
     * iterating over keys or values in an object
     if you do this  
-    
+
       ```javascript
       for (var prop in obj) { }
       ```  
